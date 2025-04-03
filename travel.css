@@ -93,21 +93,90 @@ body {
     font-size: 15px;
 } 
 /*display results*/
+.placeData{
+  position: absolute;
+  top: 300px;
+  left: 1200px;
+  width: 500px;
+}
+
+#result {
+  position: absolute;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 10px;
+  border-color: #838383;
+  border-width: 1px;
+  border-style: double;
+  display:inline;
+}
+#result h2{
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+  
+}
+#result p{
+  color: #838383;
+  padding-bottom: 2px;
+}
+#result img{
+  position: relative;
+  width: 100%;
+  align-content: center;
+  padding-top: 3px;
+}
+#result button{
+  background-color: #867070;
+  font-family: 'Segoe UI';
+}
 
 /* Contact Us Section*/
 
 .submitDetails{
-    position: absolute;
-    top: 300px;
-    left: 50rem;
-    background-color: rgba(0, 0, 0, 0.555);
-    padding-top: 1%;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
-    max-width: 800px;
+  position: absolute;
+  top: 300px;
+  left: 50rem;
+  background-color: rgba(0, 0, 0, 0.555);
+  padding-top: 1%;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  max-width: 800px; 
 }
+.submitDetails #contactlabel{
+  color: #ffffff;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-left: 4px;
+}
+.submitDetails label{
+  display:block;
+  color: #cfcfcf;
+  font-size: 20px;
+  text-align: left; 
+  padding-left: 5px;
+}
+
+.submitDetails input{
+  padding-left: 10px;
+  padding-right: 10px;
+  size: 400px;
+  background-color: #0000005d;
+  color: #ffffff;
+  height: 100px;
+}
+.submitDetails button{
+  margin-top: 4%;
+  background-color: #75a4b6;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  size: 40px;
+  padding: 3%;
+  align-items: center;
+}
+
 
 /* About Section*/
 .about{
